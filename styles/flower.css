@@ -1,30 +1,109 @@
 header{
     width: 100%;
-height: 100%;
+    height: 450px;
+    flex-shrink: 0;
 display: flex;
 background: rgba(229, 84, 115, 0.10);
 }
 .btn-primary{
-    color: #FFF;
-    font-family: Lato;
-    font-size: 15px;   
-    font-weight: 600;
-    border-radius: 5px;
+    display: inline-flex;
+    padding: 15px 30px;
+    gap: 10px;
+    border-radius: 8px;
 background: #E55473;
+padding-left: 100px;
+border-right: 100px;
 }
 .heading{color: #272727;
     font-family: Lato;
-    font-size: 50px;
-    font-weight: 500;   
+    font-size: 80px;
+    font-weight: 200;  
+    padding-left: 100px; 
 }
 .all-h6{
     display: flex;
 width: 334px;
 flex-direction: column;
-
+padding-left: 100px;
 }
 .headi{
-    width: 635px;
-height: 800px;
+    width: 500px;
+height: 200px;
+padding-bottom: 50px, 0px, 500px, 100px;
 }
 
+.flower-name{
+    color: #272727;
+font-family: Lato;
+font-size: 15px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+.flower-feature{
+    text-align: center;
+    color: #272727;
+font-family: Lato;
+font-size: 30px;
+font-weight: 500;
+padding: 40px, 80px;
+}
+.flowerp{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 40px, 80px;
+}
+#flowers{
+    display: flex;
+    text-align: center;
+    width: 200px;
+height: 300px;
+align-items: center;
+padding: 200px;
+}
+#flower-pink{
+    border-radius: 500px 500px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 310px;
+height: 428px;
+margin: 20px;
+border: 200px, 100px, 110px, 90px;
+}
+#flower-yellow{
+width: 310px;
+height: 428px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+margin: 20px;
+}
+#flower-green{
+    width: 310px;
+height: 428px;
+
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15)
+}
+
+
+.service{
+    width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+align-items: center;
+padding-left: 300px;
+gap: 20px;
+}
+.extra{
+    margin: 30px;
+}
+.del{
+    margin: 60px;
+}
